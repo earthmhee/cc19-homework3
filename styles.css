@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#dfed82bb,#020f4322,#000000bb),url("https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    min-height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    /* background-color: lime; */
+    text-align: end;
+    margin: 20px 40px 20px 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+nav a{
+    text-decoration: none;
+}
+h1{
+    margin: 30px;
+    letter-spacing: 8px;
+}
+.container{
+    background-color: rgb(105, 138, 138) tra;
+    color: aliceblue;
+    min-height: 70vh;
+    min-width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: auto;
+    gap: 2px;
+    flex-grow: 2;
+}
+.container2{
+    background-color: rgb(105, 138, 138) tra;
+    color: aliceblue;
+    height: 30px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-left: 42.5%;
+    margin-bottom: 16vh;
+}
+.w3-light-grey{
+    width: 1000px;
+    margin-bottom: 2px;
+    gap: 2px;
+}
+
+.item01{
+    /* outline: 1px dashed red; */
+    margin: 30px;
+    
+    
+}
+.item02{
+    font-size: 50px;
+    border: 70px;
+    /* outline: 1px dashed red; */
+    
+}
+.item03{
+    /* outline: 1px dashed red; */
+    padding: 4px;
+    word-spacing: 8px;
+    letter-spacing: 6px;
+    
+}
+.item04{
+    outline: 1px dashed red;
+    
+}
+.item05{
+    /* outline: 1px dashed red; */
+    padding: 12px;
+    background-color: rgb(36, 183, 185);
+    color: rgb(255, 255, 255);
+    
+}
+.notifybtn a{
+ text-decoration: none;
+ letter-spacing: 4px;
+    
+}
+.item06{
+    outline: 1px dashed red;
+    
+}
+
+
+footer{
+    /* outline: 1px dashed red; */
+    text-align: center;
+    color: #f3f3f2bb;
+}
+
+img{
+    height: 30px;
+    width : 30px
+}
+.fbborder{
+    padding: 8px;
+    gap: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.twitborder{
+    padding:8px;
+    gap: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.linkedinborder{
+    padding: 8px;
+    gap: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.mailborder{
+    padding: 8px;
+    gap: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
